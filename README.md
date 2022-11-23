@@ -1,16 +1,16 @@
 <h1 align="center">
-  <img src=".github/logo.png" width="300px" />
+  <img src=".github/logo.png" height="60px" />
 </h1>
 
 <p align="center">
-  <img src=".github/preview.jpeg" width="100%" />
+  <img src=".github/preview.png" width="100%" />
 </p>
 
 ## 💻 Projeto
 
-Esse projeto é uma landing page de uma hamburgueria fictícia chamada **Empire Burger**, nela há seções sobre as ofertas especiais, horário de funcionamento, cardápio contendo os ingredientes e preços, cards com os feedbacks dos clientes e a localização do estabelecimento.
+Esse projeto é uma landing page da empresa **Blizzard**, ela é composta por um menu de navegação, um banner hero com as informações dos principais jogos da empresa(Diablo, HearthStone e World of Warcraft), a listagem dos jogos exclusivos e um rodapé com informações do download do app battle.net.
 
-Para facilitar a codificação do projeto foi usado um protótipo do figma como base, o autor do layout é o design [**Tiago Alves**](https://www.behance.net/tiagofenixe9d9), [clique aqui](https://www.figma.com/file/ag4Az50adOF53pBrwI0wFg/Empire-Burger?node-id=0%3A1) para abrir o protótipo no figma.
+Para facilitar a codificação do projeto foi usado um protótipo do figma como base, o autor do layout é o design [**Gilberto Prado**](https://www.linkedin.com/in/gilberto-insanydesign/), [clique aqui](https://www.brchallenges.com/desafio/blizzard) para saber mais detalhes do desafio.
 
 ## 🚀 Tecnologias
 
@@ -18,38 +18,37 @@ Para facilitar a codificação do projeto foi usado um protótipo do figma como 
 - [Item 2](http://localhost:3000/)
 - [Item 3](http://localhost:3000/)
 
-## 📝 Critérios de aceite
+## 📝 Requisitos do desafio
 
-- [ ] Criar as seguintes seções: Menu, Banner hero, Ofertas especiais, Onde fica o nosso castelo, Footer.
+### Nível Fácil
 
-- [ ] Ao clicar em um item do menu, o usuário deverá ser levado para a seção correspondente.
+- [ ]  Criar as seções: **Menu**, **Banner hero**, **Footer**.
 
-- [ ] Na seção Ofertas especiais os elementos devem ser organizados com o uso da propriedade display:grid do css.
+- [ ]  O texto e o ícone do botão “Baixar jogo” devem ser alterados conforme o sistema operacional do usuário que estiver acessando a página. ( [material de apoio](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/userAgent))
 
-- [ ] As informações do card da oferta(nome do prato e gramagem) devem estar no html, a única imagem deve ser a foto do prato com o preço.
+- [ ]  Aplicar efeito de *hover* nas opções do menu de navegação.
 
-- [ ] Na seção Onde fica o nosso castelo você deverá incorporar uma localização do google maps.
+- [ ]  Aplicar responsividade para as seguintes resoluções: 1920px, 1440px, 768px e 375px.
 
 ### Nível Médio
+### 
 
-- [ ] Todos os requisitos do nivel fácil.
+- [ ]  Todos os requisitos do nivel fácil.
 
-- [ ] Criar as seguintes seções: Cardápio, Atendimento, Nossas entregas.
+- [ ]  Criar as seções: **Menu**, **Banner hero**, **Jogos Exclusivo**, **Footer**.
 
-- [ ] Na seção Cardápio os preços devem ser formatados com o método Intl.NumberFormat.
+- [ ]  Buscar a lista de jogos via api. ([acessar endpoint](https://api-brchallenges.vercel.app/api/blizzard/games))
 
-- [ ] O card Horário de funcionamento deverá ter os estados aberto e fechado, o estado será alterado conforme o horário do navegador do usuário.
+- [ ]  Aplicar efeito de hover nas imagens dos jogos da seção **Jogos Exclusivos**.
+
+- [ ]  Alterar as informações da seção **Banner Hero** ao selecionar uma opção no menu lateral. Os jogos disponíveis são **Diablo**, **HearthStone** e **World of Warcraft**.
 
 ### Nível Difícil
 
-- [ ] Todos os requisitos do nivel fácil e médio
+- [ ]  Todos os requisitos do nivel fácil e médio.
 
-- [ ] Criar as seguintes seções: Nossa realeza, Publicações do instagram.
+- [ ]  Ao clicar no botão **Logar** do menu de navegação, deverá ser exibido o modal de login.
 
-- [ ] Buscar a lista de itens do cardápio via api.
+- [ ]  Criar componente de *dropdown* para as opções **Jogos** e **Esportes** do menu de navegação.
 
-- [ ] Buscar a lista de depoimentos via api.
-
-- [ ] Na seção Nossa realeza os depoimentos deverão estar em um carrousel funcional.
-
-- [ ] O texto de cada depoimento deverá estar limitado em quatro linhas, você pode usar a propriedade clamp do css.
+- [ ]  Deverá ser executado um *gif* do jogo quando ocorrer o evento de *hover* na capa do trailer
